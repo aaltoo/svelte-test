@@ -3,15 +3,14 @@
 </script>
 
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Лист</title>
 </svelte:head>
 
 <section>
-	<Counter />
+  <h1>List</h1>
 </section>
 
 <style>

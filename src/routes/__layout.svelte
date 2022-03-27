@@ -1,15 +1,21 @@
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 </script>
 
-<Header />
+<header class="h-32 flex justify-center bg-slate-200">
+	<nav class="flex w-1/2 h-full items-center">
+		<a href="/list" class="w-3/12 h-full hover:bg-slate-700 flex justify-center items-center">List</a>
+		<a href="/" class="w-3/12 h-full hover:bg-slate-700 flex justify-center items-center">smth</a>
+		<a href="/" class="w-3/12 h-full hover:bg-slate-700 flex justify-center items-center">dasd</a>
+		<a href="/" class="w-3/12 h-full hover:bg-slate-700 flex justify-center items-center">ds</a>
+	</nav>
+</header>
 
 <main>
 	<slot />
 </main>
 
-<footer>
+<footer class="h-32 flex justify-center items-center bg-indigo-300">
 	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
 </footer>
 
@@ -23,23 +29,5 @@
 		max-width: 1024px;
 		margin: 0 auto;
 		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
 	}
 </style>
