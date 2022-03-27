@@ -12,7 +12,7 @@
 
 <section>
 	<h1 class="bg-slate-500">
-		<div class="welcome">
+		<div class="welcome bg-slate-50">
 			<picture>
 				<source srcset="svelte-welcome.webp" type="image/webp" />
 				<img src="svelte-welcome.png" alt="Welcome" />
