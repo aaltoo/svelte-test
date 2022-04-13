@@ -10,7 +10,7 @@
 </svelte:head>
 
 <section>
-  <h1>List</h1>
+
 </section>
 
 <style>

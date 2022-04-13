@@ -3,14 +3,15 @@
 </script>
 
 <script lang="ts">
+  import Search from '../lib/Search.svelte'
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Рандомная картинка</title>
 </svelte:head>
 
-<section class="h-full flex flex-col justify-center items-center">
-	<h1>Welcome to my test svelte app!</h1>
+<section>
+  <Search />
 </section>
 
 <style>
